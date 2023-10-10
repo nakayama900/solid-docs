@@ -1630,7 +1630,7 @@ Before using it, consider the closely related primitives
 
 Like `createMemo`, `createComputed` calls its function immediately on updates
 (unless you're in a [batch](#batch), [effect](#createEffect), or
-[transition](#use-transition)).
+[transition](#usetransition)).
 However, while `createMemo` functions should be pure (not set any signals),
 `createComputed` functions can set signals.
 Related, `createMemo` offers a readonly signal for the return value of the
